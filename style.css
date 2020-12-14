@@ -189,7 +189,9 @@ main p a:hover {
 /* FOOTER */
 
 footer {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
