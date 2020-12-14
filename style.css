@@ -262,6 +262,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 330px) {
+  main {
+    padding-top: 80px;
+  }
+
   footer li {
     text-align: center;
   }
