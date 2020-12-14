@@ -16,8 +16,20 @@
       <ul>
         <li><a href="#">Gmail</a></li>
         <li><a href="#">Images</a></li>
-        <li><a href="#">Square</a></li>
-        <li><a href="#">Circle</a></li>
+        <li id="squares">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </li>
+        <li id="picture">
+          <img src="https://www.flaticon.com/svg/static/icons/svg/236/236832.svg">
+        </li>
       </ul>
     </nav>
   </header>
@@ -28,7 +40,12 @@
     </div>
 
     <form action="#">
-      <input type="text" placeholder="?">
+      <div id="form-container">
+        <input type="text">
+        <img id="search-icon" src="https://www.flaticon.com/svg/static/icons/svg/1020/1020241.svg">
+        <img id="voice-icon" src="https://www.flaticon.com/svg/static/icons/svg/786/786459.svg">
+      </div>
+
       <div id="btns">
         <button>Google Search</button>
         <button>I'm Feeling Lucky</button>
