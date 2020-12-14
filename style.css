@@ -18,12 +18,13 @@ body {
   align-items: center;
 
   height: 100vh;
+  min-height: 100vh;
 }
 
 /* HEADER */
 
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
 
   display: flex;
@@ -90,6 +91,12 @@ main {
   margin-top: 2.5rem;
 
   padding-top: 115px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main form {
@@ -249,5 +256,41 @@ footer a:hover {
     justify-content: space-between;
     
     padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  footer li {
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 0.8rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  #footer-body-top ul {
+    display: flex;
+    margin: 0.7rem 0 0.3rem 0;
+  }
+  
+  #footer-body-top ul li {
+    margin: 0 0.5rem;
+  }
+  
+  #footer-body-bottom ul {
+    display: flex;
+    margin: 0.3rem 0 1rem 0;
+  }
+  
+  #footer-body-bottom ul li {
+    margin: 0 0.5rem;
+  }
+
+  #logo img {
+    max-width: 80%;
   }
 }
